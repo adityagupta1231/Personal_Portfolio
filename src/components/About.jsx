@@ -1,5 +1,5 @@
 import { useState } from "react";
-import aboutImg from "../assets/i4-removebg-preview.png";
+import aboutImg from "../../public/assets/i4-removebg-preview.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 

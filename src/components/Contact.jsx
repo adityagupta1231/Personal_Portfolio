@@ -75,7 +75,7 @@ const Contact = () => {
         {/* Image (visible only on desktop screens) */}
         <div className="hidden lg:block lg:w-96 flex justify-end opacity-85">
           <img
-            src="src/assets/pngwing.com.png"
+            src="./assets/pngwing.com.png"
             alt="Contact"
             className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-lg"
           />

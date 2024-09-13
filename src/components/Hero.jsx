@@ -29,14 +29,14 @@ const Home = () => {
       {/* Right background image */}
       <img
         className="-z-20 absolute h-full right-0 translate-x-1/4  lg:rotate-0 md:scale-x-[-1] md:-mx-60 opacity-15 lg:mr-10 sm:-mr-80 transform lg:scale-x-[-1]"
-        src="src/assets/bgimage.png"
+        src="../assets/bgimage.png"
         alt=""
       />
 
       {/* Left Background Image */}
       <img
         className="-z-20 absolute h-full left-0 -translate-x-3/4 lg:-rotate-0 rotate-0 opacity-15 lg:ml-40 md:ml-40 sm:-mr-40 "
-        src="src/assets/bgimage.png"
+        src="../assets/bgimage.png"
         alt=""
       />
       {/* Right content: Circular Image for mobile screens */}
@@ -48,7 +48,7 @@ const Home = () => {
       >
         <div className="w-80 h-80 rounded-full overflow-hidden shadow-lg shadow-sky-400/90 bg-blue-600 opacity-90">
           <img
-            src="src/assets/i1.jpg" // Replace with the correct image path
+            src="../assets/i1.jpg" // Replace with the correct image path
             alt="Profile"
             className="object-cover w-full h-full"
           />
@@ -139,7 +139,7 @@ const Home = () => {
 
         {/* Button */}
         <motion.a
-          href="src/assets/Resume_AD.pdf"
+          href="../assets/Resume_AD.pdf"
           download="Resume_AD.pdf"
           className="inline-block bg-cyan-700 text-white poppins-bold py-3 px-8 rounded-full border-2 border-transparent transition-all hover:bg-black hover:border-cyan-600 hover:shadow-lg hover:shadow-red"
           whileHover={{ scale: 1.05 }}
@@ -161,7 +161,7 @@ const Home = () => {
         <div className="relative">
           <div className="w-80 h-80 rounded-full overflow-hidden bg-blue-600 shadow-lg shadow-sky-400/90 border-2 border-sky-600 opacity-90 mb-40">
             <img
-              src="src/assets/i1.jpg" // Replace with the correct image path
+              src="../assets/i1.jpg" // Replace with the correct image path
               alt="Profile"
               className="object-cover w-full h-full"
             />

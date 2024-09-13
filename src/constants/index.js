@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/VibeSync.jpg";
-import project2 from "../assets/projects/portfolio.jpg";
-import project3 from "../assets/projects/CareerSurf.jpg";
-import project4 from "../assets/projects/Todo.jpg";
+import project1 from "../../public/assets/Vibesync.jpg";
+import project2 from "../../public/assets/portfolio.jpg";
+import project3 from "../../public/assets/CareerSurf.jpg";
+import project4 from "../../public/assets/Todo.jpg";
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work,and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
